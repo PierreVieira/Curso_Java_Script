@@ -1,8 +1,8 @@
-var a = 3; //Variável modificável
-console.log(a);
+var a = 3 //Variável modificável
+console.log(a)
 let b = 4; //Variável não modificável
-const c = 1; //Constante
+const c = 1 //Constante
 a = 30;
-console.log(a);
+console.log(a)
 a = 'oi';
-console.log(a);
+console.log(a)
