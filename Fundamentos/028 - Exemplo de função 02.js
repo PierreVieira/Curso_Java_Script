@@ -11,7 +11,7 @@ const soma = (a, b) => {
 console.log(soma(2, 5))
 
 //retorno implícito (igual lambda function)
-const subtracao = (a, b) => a -b
+const subtracao = (a, b) => a -b //Se tiver apenas 1 parâmetro não precisa dos parênteses
 /* Em python
 *  subtracao = lambda (a, b): a - b
 * */
