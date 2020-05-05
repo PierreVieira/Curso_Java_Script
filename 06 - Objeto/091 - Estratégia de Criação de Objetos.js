@@ -42,3 +42,15 @@ console.log(filha)
 //Uma função famosa que retorna objeto
 const fromJSON = JSON.parse('{"info": "Sou um JSON"}')
 console.log(fromJSON.info)
+
+
+//Usando a palavra reservada 'class'
+class Pessoa {
+    constructor(nome, idade) {
+        this.nome = nome
+        this.idade = idade
+    }
+}
+
+const pessoa = new Pessoa('Pierre', 19)
+console.log(pessoa)
